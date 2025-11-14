@@ -1,5 +1,5 @@
 import java.util.Scanner;
-    public class AverageCalculator{
+    public class PasswordStrengthChecker{
         public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-    public class AverageCalculator{
+    public class ArithmeticCalculator{
         public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
@@ -10,7 +10,7 @@ import java.util.Scanner;
         System.out.print("Enter another number: ");
         int numberOne = input.nextInt();
 
-        System.out.print("Enter an operator (+,-,*,/)")
+        System.out.print("Enter an operator (+,-,*,/)");
         char operator = input.next
         }
     }

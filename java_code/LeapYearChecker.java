@@ -1,3 +1,14 @@
+// Create scanner for user input
+
+//Prompt user to enter a year
+//Read input from the user
+
+//if year modulo 4 equals 0 and year modulo 100 is not equal to 0 or year modulo 400 equals 0
+//Display year is a leap year
+
+//else display year is not a leap year
+
+
 import java.util.Scanner;
     public class LeapYearChecker{
         public static void main(String[] args){
