@@ -1,8 +1,8 @@
 first_largest = 0
 second_largest = 0
 
-for index in range(10):
-    number = int(input(f"Enter number {index+1}: "))
+for index in range(1,11):
+    number = int(input(f"Enter number: "))
 
     if number > first_largest:
         second_largest = largest
