@@ -6,5 +6,5 @@ def get_discount(item_name, original_price, promo_code):
     else:
         discount = 0
 
-    discounted_price = original price * (1 - discount)
+    discounted_price = original_price * (1 - discount)
     return discounted_price
