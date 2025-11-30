@@ -22,11 +22,11 @@ def is_palindrome_prime(number):
 
 def check_temperature(value, measurement_unit = 'C' or 'F', threshold = 0):
     if measurement_unit == 'C':
-        converted = (value * 9/5) + 32
+        converted_temperature = (value * 9/5) + 32
     else:
-        converted = (value - 32) * 5/9
+        converted_temperature = (value - 32) * 5/9
 
-    if converted < threshold:
+    if converted_temperature < threshold:
         return 'Cold advisory'
     else:
         return 'Heat alert'
