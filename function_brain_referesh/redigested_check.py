@@ -23,9 +23,13 @@ def check_reversed_word(word):
 print(check_reversed_word('Hello'))
 
 def get_vowel(word):
-    for letter in range(1, 27):
-        if letter == 'a' or letter == 'e' or letter == 'i' or letter == 'o' or letter == 'u':
-            count += 1            
-            return letter
+    vowel = 'aeiou'
+    counted_vowels = ''
+    count = 0
+    for letter in word:
+        if letter in vowel and letter not in counted_vowels:
+            count += 1
+            counted_vowels += letter
+    return count
 
-print(get_vowel('apple'))
+print(get_vowel('pineapple'))

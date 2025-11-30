@@ -30,7 +30,7 @@ class TestFunction(unittest.TestCase):
 
 
     def test_that_get_vowel_function_exist(self):
-        redigest_check.get_vowel('pineapple')
+        redigested_check.get_vowel('pineapple')
 
     def test_that_get_vowel_function_returns_count_of_vowel_argument(self):
         actual = redigested_check.get_vowel('pineapple')
