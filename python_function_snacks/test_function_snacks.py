@@ -22,6 +22,9 @@ class TestFunctionSnacks(unittest.TestCase):
 
 
     def test_that_is_palindrome_prime_exist(self):
-        function_snacks.is_palindrome_prime(15151)
+        function_snacks.is_palindrome_prime(757)
 
-    def test_that_is_palindrome_prime_returns
+    def test_that_is_palindrome_prime_returns_palindrome_prime(self):
+        actual = function_snacks.is_palindrome_prime(757)
+        expected = True
+        self.assertEqual(actual,expected)
