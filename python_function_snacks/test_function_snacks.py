@@ -28,3 +28,17 @@ class TestFunctionSnacks(unittest.TestCase):
         actual = function_snacks.is_palindrome_prime(757)
         expected = True
         self.assertEqual(actual,expected)
+
+
+    def test_that_check_temperature_exist(self):
+        function_snacks.check_temperature(20, 'C', 0)
+
+    def test_that_check_temperature_returns_cold_advisory_or_heat_alert(self):
+        actual = function_snacks.check_temperature(20, 'C', 0)
+        expected = 'Heat alert'
+        self.assertEqual(actual,expected)
+
+    def test_that_check_temperature_returns_cold_advisory_or_heat_alert(self):
+        actual = function_snacks.check_temperature(20, 'F', 0)
+        expected = 'Cold advisory'
+        self.assertEqual(actual,expected)
