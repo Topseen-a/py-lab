@@ -25,6 +25,6 @@ class TestFunction(unittest.TestCase):
         function.sum_first_middle_last([2,4,5,7,6])
 
     def test_that_add_third_element_function_returns_total_of_count(self):
-        actual = function.sum_first_middle_last([2,4,5,7,6])
+        actual = function.sum_first_middle_last([2, 4,5,7,6])
         expected = 2 + 5 + 6
         self.assertEqual(actual,expected)
