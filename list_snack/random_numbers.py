@@ -13,6 +13,7 @@ for count in range(0, length, 2):
     even_element_sum += numbers[count]
 print('Sum of even elements position is', even_element_sum)
 
+
 odd_element_sum = 0
 for count in range(1, length, 2):
     odd_element_sum += numbers[count]
