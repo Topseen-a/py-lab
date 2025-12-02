@@ -84,36 +84,3 @@ def take_list(numbers):
     return total
 
 print(take_list([2,3,4,5,7]))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
