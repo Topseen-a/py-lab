@@ -6,7 +6,7 @@ def get_string(word):
     else:
         return new_string
 
-#print(get_string("Topseen"))
+print(get_string("Topseen"))
 
 def add_word(word):
     if len(word) >= 3 and 'ing' not in word:
@@ -16,7 +16,7 @@ def add_word(word):
     if len(word) < 3:
         return word
         
-#print(add_word('abc'))
+print(add_word('abc'))
 
 def take_list(words):
     longest = 0
@@ -27,7 +27,7 @@ def take_list(words):
             item = elements
     return (f'{item}, {longest}')
 
-#print(take_list(['welcome','out','weather','mobile','breakfast','journey']))
+print(take_list(['welcome','out','weather','mobile','breakfast','journey']))
 
 def take_string(words):
     new_words = " "
@@ -36,7 +36,7 @@ def take_string(words):
             new_words += words[count]
     return new_words
 
-#print(take_string("semicolon"))
+print(take_string("semicolon"))
     
 def get_minimum(numbers):
     minimum = numbers[0]
@@ -46,7 +46,7 @@ def get_minimum(numbers):
             minimum = count
     return minimum
 
-#print(get_minimum([8,4,9,2,5,7,3]))
+print(get_minimum([8,4,9,2,5,7,3]))
 
 
 def get_maximum(numbers):
@@ -57,7 +57,7 @@ def get_maximum(numbers):
             maximum = count
     return maximum
 
-#print(get_maximum([8,4,9,2,5,7,3]))
+print(get_maximum([8,4,9,2,5,7,3]))
 
 def take_input(word,number):
     if type(number) == int:
@@ -65,7 +65,7 @@ def take_input(word,number):
     if type(number) == float:
         return word
 
-#print(take_input("hello",3))
+print(take_input("hello",3))
 
 def take_list(numbers):
     new_list = []
@@ -74,7 +74,7 @@ def take_list(numbers):
         new_list.append(count)
     return new_list
 
-#print(take_list([2,3,4,5,7]))
+print(take_list([2,3,4,5,7]))
 
 def take_list(numbers):
     total = 0
