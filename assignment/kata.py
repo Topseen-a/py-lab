@@ -16,4 +16,11 @@ def get_division(first_number,second_number):
     else:
         return first_number / second_number
 
+def factor_of(number):
+    factor = 0
+    for count in range(1, number +1):
+        if number % count == 0:        
+            factor += 1
+    return factor
 
+print(factor_of(10))
