@@ -53,4 +53,11 @@ def no_of_odd_numbers_in(array_list):
         if array_list[count] % 2 != 0:
             counter += 1
     return counter
-print(no_of_odd_numbers_in(array_list))
+
+def no_of_even_numbers_in(array_list):
+    counter = 0
+    for count in range(0,len(array_list)):
+        if array_list[count] % 2 == 0:
+            counter += 1
+    return counter
+print(no_of_even_numbers_in(array_list))
