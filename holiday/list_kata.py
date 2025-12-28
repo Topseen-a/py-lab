@@ -60,4 +60,12 @@ def no_of_even_numbers_in(array_list):
         if array_list[count] % 2 == 0:
             counter += 1
     return counter
-print(no_of_even_numbers_in(array_list))
+
+def even_numbers_in(array_list):
+    new_list = []
+    for count in range(0,len(array_list)):
+        if array_list[count] % 2 == 0:
+            new_list.append(array_list[count])
+    return new_list
+
+print(even_numbers_in(array_list))
