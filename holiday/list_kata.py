@@ -33,3 +33,18 @@ def sum_of_odd_numbers_in(array_list):
         if array_list[count] % 2 != 0:
             total += array_list[count]
     return total
+
+def maximum_and_minimum_of(array_list):
+    new_list = [0,0]
+    maximum = array_list[0]
+    minimum = array_list[0]
+    for count in range(0,len(array_list)):
+        if array_list[count] > maximum:
+            maximum = array_list[count]
+        if array_list[count] < minimum:
+            minimum = array_list[count]
+    new_list[0] = maximum
+    new_list[1] = minimum
+    return new_list
+
+print(maximum_and_minimum_of(array_list))
