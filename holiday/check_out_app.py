@@ -1,3 +1,5 @@
+#from datetime import datetime
+
 customer_name = input("What is the customer's name? ")
 
 items = []
