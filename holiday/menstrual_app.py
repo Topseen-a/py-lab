@@ -19,3 +19,25 @@ while True:
     break
 
 next_cycle = cycle_length - current_day
+ovulation_day = cycle_length - 14
+days_to_ovulation = ovulation_day - current_day
+
+fertile_start = ovulation_day - 4
+fertile_stop = ovulation_day + 1
+
+safe_period_one_start = period_duration + 1
+safe_period_one_stop = fertile_start - 1
+
+safe_period_two_start = fertile_stop + 1
+safe_period_two_stop = cycle_length
+
+if current_day >= 1 and current_day <= period_duration:
+    print("You are currently in your menstrual flow phase")
+elif current_day == ovulation_day:
+    print("Today is your ovulation day")
+elif current_day >= fertile_start and current_day <= fertile_stop:
+    print("You are in your fertile window (high risk of pregnancy)")
+elif ((current_day >= safe_period_one_start and current_day <= safe_period_one_stop) or (current_day >= safe_period_two_start and current_day <= safe_period_two_stop)):
+    print("You are in your fertile window (low risk of pregnancy)")
+else:
+    print("Unable to determine your current phase")
