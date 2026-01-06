@@ -41,3 +41,6 @@ elif ((current_day >= safe_period_one_start and current_day <= safe_period_one_s
     print("You are in your fertile window (low risk of pregnancy)")
 else:
     print("Unable to determine your current phase")
+
+print("Your next menstrual cycle is in",next_cycle,"days")
+print("Your next ovulation day is in",days_to_ovulation,"days")
