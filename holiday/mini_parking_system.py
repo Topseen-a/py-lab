@@ -2,9 +2,10 @@ parking_slot = [0] * 20
 
 while True:
     print("Welcome to Mini Parking System. ")
-    print("\n1. Choose a slot to park your car ")
-    print("2. Remove your car from the slot ")
-    print("3. Display parking status ")
+    print("\n1. Park car automatically.")
+    print("2. Choose a slot to park your car ")
+    print("3. Remove your car from the slot ")
+    print("4. Display parking status ")
     print("0. Exit the app ")
 
     choice = int(input("Choose an option: "))
@@ -15,6 +16,18 @@ while True:
     
     match choice:
         case 1:
+            for index in range(0,len(parking_slot)):
+                if parking_slot[index] == 0:
+                    parking_slot[index] = 1
+                    print("Your car is parked at slot", (index + 1))
+                    break
+                index += 1
+
+            if index == len(parking_slot):
+                print("Parking lot is full")
+            print()
+
+        case 2:
             slot_choice = int(input("Enter a slot to park from (1-20): "))
             if slot_choice < 1 or slot_choice > 20:
                 print("Invalid choice ")
@@ -25,7 +38,7 @@ while True:
                 print("Your car is parked at slot", slot_choice)
                 print()
 
-        case 2:
+        case 3:
             remove_slot_number = int(input("Enter the slot number to remove your car: "))
             if remove_slot_number < 1 or remove_slot_number > 20:
                 print("Invalid choice ")
@@ -36,7 +49,7 @@ while True:
                 print("Your car is removed from slot", remove_slot_number)
                 print()
 
-        case 3:
+        case 4:
             print("\nParking status: ")
             for count in range(0,len(parking_slot)):
                 status = ""
