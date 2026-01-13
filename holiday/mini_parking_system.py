@@ -21,7 +21,6 @@ while True:
                     parking_slot[index] = 1
                     print("Your car is parked at slot", (index + 1))
                     break
-                index += 1
 
             if index == len(parking_slot):
                 print("Parking lot is full")
