@@ -48,32 +48,45 @@ def buyFuel():
     fuelName = fuelNames[index]
     price = fuelPrice[index]
 
-    methodOfBuyingFuel = input("Litres or Amount? ")
+    method_of_buying_fuel = get_buying_method()
 
-    litres = 0
-    amount = 0
-
-    if methodOfBuyingFuel.lower() == "litres":
-        while litres < 1 or litres > 50:
-            litres = int(input("How many litres of fuel are you buying? "))
-            if litres < 1 or litres > 50:
-                print("Litres must be between 1-50")
-        amount = litres * price
-
-    elif methodOfBuyingFuel.lower() == "amount":
-        while amount < price:
-            amount = int(input("How much are you buying? "))
-            if amount < price:
-                print("Amount must be more than litre price")
-        litres = amount // price
-
+    if method_of_buying_fuel.lower() == "litres":
+        litres = get_valid_litres()
+        amount = calculate_amount(litres, price)
+    elif method_of_buying_fuel.lower() == "amount":
+        amount = get_valid_amount(price)
+        litres = calculate_litres(amount, price)
     else:
         print("Invalid input")
         return
 
     saveTransaction(fuelName, litres, amount)
-    showTransactionHistory()
+    print_receipt(fuelName, litres, amount)
 
+def get_buying_method():
+    return input("Litres or Amount? ")
+
+def get_valid_litres():
+    while True:
+        litres = float(input("How many litres of fuel are you buying? "))
+        if 1 <= litres <= 50:
+            return litres
+        else:
+            print("Litres must be between 1-50")
+
+def get_valid_amount(price):
+    while True:
+        amount = float(input("How much are you buying? "))
+        if amount >= price:
+            return amount
+        else:
+            print("Amount must be more than litre price")
+
+def calculate_amount(litres, price):
+    return litres * price
+
+def calculate_litres(amount, price):
+    return amount / price
 
 def saveTransaction(fuel, litres, amount):
     global transactionCount
@@ -90,6 +103,14 @@ def saveTransaction(fuel, litres, amount):
 
     print("Saving transaction history...\n")
 
+def print_receipt(fuel, litres, amount):
+    print("Customer's Transaction Receipt")
+    print("===========================================")
+    print(f"Product: {fuel}")
+    print(f"Amount: #{amount}")
+    print(f"Litres: {litres}L")
+    print("Thank you for your patronage")
+    print("===========================================\n")
 
 def showTransactionHistory():
     if transactionCount == 0:
