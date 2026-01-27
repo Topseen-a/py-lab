@@ -1,6 +1,6 @@
 list_of_numbers = [1,2,3,4,5]
 
-list_of_words = ["Bingo", "Ade", "Hello", "Cat"]
+list_of_words = ["Bingo", "Ade", "Hello", "Cat", "Gum"]
 
 list_of_integers = [10,5,6,8,2,7,3,9,4,1]
 
