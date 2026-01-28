@@ -56,3 +56,18 @@ def print_products(products):
         print("Product:", name,"-","Price:",price)
 
 print_products(products)
+
+points = [(2,3),(-1,4),(5,-6),(0,7),(-3,-2)]
+
+def positive_points(points):
+
+    result = []
+
+    for x,y in points:
+        if x > 0 and y > 0:
+            result.append((x,y))
+
+    return result
+
+print(positive_points(points))
+
