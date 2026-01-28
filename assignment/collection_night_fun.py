@@ -63,9 +63,9 @@ def positive_points(points):
 
     result = []
 
-    for x,y in points:
-        if x > 0 and y > 0:
-            result.append((x,y))
+    for point_x,point_y in points:
+        if point_x > 0 and point_y > 0:
+            result.append((point_x,point_y))
 
     return result
 
