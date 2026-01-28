@@ -71,3 +71,31 @@ def positive_points(points):
 
 print(positive_points(points))
 
+employees = [("John","IT",50000), ("Jane","HR",45000), ("Mike","IT",60000), ("Sara","Finance",70000)]
+
+def unpack(employees):
+
+    for name, department, salary in employees:
+        print("Name:", name, "Department:", department, "Salary:", salary)
+
+unpack(employees)
+
+def it_department(employees):
+
+    it_employees = []
+
+    for name, department, salary in employees:
+        if department == "IT":
+            it_employees.append((name,department,salary))
+
+    return it_employees
+
+print(it_department(employees))
+
+def it_earning(employees):
+
+    for name, department, salary in employees:
+        if department == "IT" and salary > 55000:
+            print(name)
+
+it_earning(employees)
