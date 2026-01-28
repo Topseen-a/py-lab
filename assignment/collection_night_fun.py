@@ -23,7 +23,7 @@ def passed_students(students):
 
     pass_count = 0
 
-    for name, score in students:
+    for _, score in students:
         if score >= 50:
             pass_count += 1
     
@@ -34,7 +34,7 @@ print(passed_students(students))
 products = [("Laptop", 1200), ("Mouse", 25), ("Keyboard", 45), ("Monitor", 300), ("USB Cable", 10)]
 
 def is_expensive(products):
-    name, price = products
+    _, price = products
     return price > 100
 
 result = list(filter(is_expensive,products))
@@ -44,7 +44,7 @@ def calculate_sum(products):
 
     total = 0
 
-    for name, price in products:
+    for _, price in products:
         total += price
 
     return total
@@ -99,3 +99,6 @@ def it_earning(employees):
             print(name)
 
 it_earning(employees)
+
+for index, (name, department, salary) in enumerate(employees):
+    print("Index:", index, "Name:", name, "Department:", department, "Salary:", salary)
