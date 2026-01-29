@@ -57,3 +57,6 @@ def filter_palindromes(words):
 palindromes = filter(filter_palindromes, words)
 print(list(palindromes))
 
+languages = ["Python", "Java", "C++"]
+uppercase_languages = map(str.upper, languages)
+print(list(uppercase_languages))
