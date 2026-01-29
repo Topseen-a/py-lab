@@ -60,3 +60,8 @@ print(list(palindromes))
 languages = ["Python", "Java", "C++"]
 uppercase_languages = map(str.upper, languages)
 print(list(uppercase_languages))
+
+def square(number):
+    return number ** 2
+squared_numbers = map(square, range(1, 11))
+print(list(squared_numbers))
