@@ -99,6 +99,3 @@ def it_earning(employees):
             print(name)
 
 it_earning(employees)
-
-for index, (name, department, salary) in enumerate(employees):
-    print("Index:", index, "Name:", name, "Department:", department, "Salary:", salary)
