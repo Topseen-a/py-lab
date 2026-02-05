@@ -1,0 +1,15 @@
+"""Integer value of a character"""
+
+print(ord('A'))
+print(ord('B'))
+print(ord('C'))
+print(ord('D'))
+print(ord('a'))
+print(ord('b'))
+print(ord('c'))
+print(ord('1'))
+print(ord('2'))
+print(ord('$'))
+print(ord('*'))
+print(ord('+'))
+print(ord(' '))
