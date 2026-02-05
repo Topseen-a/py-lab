@@ -55,3 +55,6 @@ print(the_dot)
 
 the_asterisk = re.findall(r".*","abc123xyz")
 print(the_asterisk)
+
+the_dot_asterisk = re.findall(r".*","abc123xyz")
+print(the_dot_asterisk)

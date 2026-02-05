@@ -5,120 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b88da9d-bb52-47fc-b892-b47eae74f8c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/semicolon_projects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/7%_investment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/7%_investment_in_return.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/age_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arithmetic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arithmetic_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arithmetic_operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arithmetic_smallest_and_largest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ascending_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/average_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base_converter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bmi_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/book_suggestion_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/book_suggestion_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/check_out_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/circle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code_action.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code_error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/code_party.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection_night_fun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/correct_password.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/creating_variables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/date_time.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/discount_eligibilty.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/even_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/finger_warm_up.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_eight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_eighteen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_fifteen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_five.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_four.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_fourteen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_nine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_one.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_seven.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_six.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_ten.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_thirteen.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_three.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fire_drill_two.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/function_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/function_snacks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/function_task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/grocery_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heart_rate_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/high_low.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/if_else_statement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/integer_value_of_a_character.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/largest_of_three.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/largest_smallest_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list_kata.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menstrual_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miles_per_gallon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mini_parking_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/missing_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/morning_cup_cake.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multi_fuel_dispenser_system.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiples_of_three.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multiplication_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nokia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/number_guess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/odd_or_even.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/password_checker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pizza_wahala.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/positive_negative_zero.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prime_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python_integers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/quadrant_finder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/random_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/random_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redigested_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repeated_word.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/right_angled_triangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rock_paper_scissors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/roi_investment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rounding_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/safe_division.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scores.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/separating_digits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/separating_digits_in_an_integer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sum_display.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sum_of_multiple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/table_display.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/table_of_squares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/table_of_squares_and_cubes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temperature_conversion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ticket_price_calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/turing_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twelve_days_of_christmas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/two_largest_values.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/value_of_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vowel_or_consonant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/wrong_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/year_checker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/function_snacks_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/function_task_tets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/function_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/multi_fuel_dispenser_system_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/redigested_check_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finger_warm_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/finger_warm_up.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Topseen-a"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Topseen-a/py-lab",
+    "accountId": "068e154c-e5e4-4762-8f8c-25514c11673f"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -143,36 +43,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for function_snacks_test.TestFunctionSnacks.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for function_task_tets.TestConvertMinutesFunction.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for function_test.TestFunction.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for multi_fuel_dispenser_system_test.test_multi_fuel_dispenser_system.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for redigested_check_test.TestFunction.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test.multi_fuel_dispenser_system_test.test_multi_fuel_dispenser_system.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7%_investment.executor&quot;: &quot;Run&quot;,
-    &quot;Python.account.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercise.executor&quot;: &quot;Run&quot;,
-    &quot;Python.finger_warm_up.executor&quot;: &quot;Run&quot;,
-    &quot;Python.function_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.nokia.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/semi/Documents/semicolon_projects/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for function_snacks_test.TestFunctionSnacks.executor": "Run",
+    "Python tests.Python tests for function_task_tets.TestConvertMinutesFunction.executor": "Run",
+    "Python tests.Python tests for function_test.TestFunction.executor": "Run",
+    "Python tests.Python tests for multi_fuel_dispenser_system_test.test_multi_fuel_dispenser_system.executor": "Run",
+    "Python tests.Python tests for redigested_check_test.TestFunction.executor": "Run",
+    "Python tests.Python tests for test.multi_fuel_dispenser_system_test.test_multi_fuel_dispenser_system.executor": "Run",
+    "Python.7%_investment.executor": "Run",
+    "Python.account.executor": "Run",
+    "Python.exercise.executor": "Run",
+    "Python.finger_warm_up.executor": "Run",
+    "Python.function_list.executor": "Run",
+    "Python.nokia.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/semi/Documents/semicolon_projects/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -183,7 +84,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for function_snacks_test.TestFunctionSnacks">
+  <component name="RunManager">
     <configuration name="Python tests for function_snacks_test.TestFunctionSnacks" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="semicolon_projects" />
       <option name="ENV_FILES" value="" />
@@ -302,6 +203,7 @@
       <workItem from="1770059904359" duration="23000" />
       <workItem from="1770280735369" duration="4773000" />
       <workItem from="1770299939879" duration="6656000" />
+      <workItem from="1770322775001" duration="986000" />
     </task>
     <servers />
   </component>
