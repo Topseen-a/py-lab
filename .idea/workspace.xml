@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b88da9d-bb52-47fc-b892-b47eae74f8c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/regex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/finger_warm_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/finger_warm_up.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Topseen-a"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Topseen-a&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Topseen-a/py-lab",
-    "accountId": "068e154c-e5e4-4762-8f8c-25514c11673f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Topseen-a/py-lab&quot;,
+    &quot;accountId&quot;: &quot;068e154c-e5e4-4762-8f8c-25514c11673f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -58,6 +58,7 @@
     "Python.finger_warm_up.executor": "Run",
     "Python.function_list.executor": "Run",
     "Python.nokia.executor": "Run",
+    "Python.regex.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -203,7 +204,11 @@
       <workItem from="1770059904359" duration="23000" />
       <workItem from="1770280735369" duration="4773000" />
       <workItem from="1770299939879" duration="6656000" />
-      <workItem from="1770322775001" duration="986000" />
+      <workItem from="1770322775001" duration="2078000" />
+      <workItem from="1770492677370" duration="1608000" />
+      <workItem from="1770494966779" duration="359000" />
+      <workItem from="1770626510161" duration="40000" />
+      <workItem from="1770627284365" duration="12024000" />
     </task>
     <servers />
   </component>
@@ -225,9 +230,10 @@
     <SUITE FILE_PATH="coverage/semicolon_projects$exercise.coverage" NAME="exercise Coverage Results" MODIFIED="1769934510689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/semicolon_projects$function_list.coverage" NAME="function_list Coverage Results" MODIFIED="1769934662084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/semicolon_projects$nokia.coverage" NAME="nokia Coverage Results" MODIFIED="1769934816757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/semicolon_projects$regex.coverage" NAME="regex Coverage Results" MODIFIED="1770634640233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/semicolon_projects$account.coverage" NAME="account Coverage Results" MODIFIED="1769934248066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/semicolon_projects$7__investment.coverage" NAME="7%_investment Coverage Results" MODIFIED="1769934429183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/semicolon_projects$.coverage" NAME=" Coverage Results" MODIFIED="1770301907588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/semicolon_projects$finger_warm_up.coverage" NAME="finger_warm_up Coverage Results" MODIFIED="1770304144885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/semicolon_projects$.coverage" NAME=" Coverage Results" MODIFIED="1770323793399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/semicolon_projects$finger_warm_up.coverage" NAME="finger_warm_up Coverage Results" MODIFIED="1770630582706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
