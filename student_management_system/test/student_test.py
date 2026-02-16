@@ -4,7 +4,7 @@ from student_system.course import Course
 from student_system.student import Student
 
 
-class TestStudentManagement(unittest.TestCase):
+class TestStudent(unittest.TestCase):
     def setUp(self):
         self.student = Student("Tayo", "1234")
 

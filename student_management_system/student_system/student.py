@@ -11,13 +11,24 @@ class Student:
     def get_courses(self):
         return self.__courses
 
+    def get_id(self):
+        return self.__id
+
+    def get_name(self):
+        return self.__name
+
+    def update_name(self, new_name):
+        if not new_name:
+            raise ValueError("Invalid name")
+        self.__name = new_name
+
     def assign_grade(self, course_code, grade):
         for course in self.__courses:
             if course.get_code() == course_code:
                 course.set_grade(grade)
                 return
-        raise Exception("Invalid course")
+        raise ValueError("Invalid course")
 
     def __is_valid_input(self, name, id):
-        if name is None or id is None:
+        if not name or not id:
             raise ValueError("Invalid input")
