@@ -50,7 +50,7 @@ class TestStudentManagementSystem(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.system.enroll_student(student_id, "CS101")
 
-    def test_assign_grade_not_enrolled(self):
+    def test_assign_grade_when_student_is_not_enrolled(self):
         student_id = self.system.register_student("Alice")
         self.system.add_course("CS101", "Intro")
 
