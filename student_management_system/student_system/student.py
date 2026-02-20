@@ -1,15 +1,9 @@
 class Student:
-    def __init__(self, name, id):
-        self.__is_valid_input(name, id)
+    def __init__(self, name, student_id):
+        self.__is_valid_name(name)
         self.__name = name
-        self.__id = id
-        self.__courses = []
-
-    def enroll(self, course):
-        self.__courses.append(course)
-
-    def get_courses(self):
-        return self.__courses
+        self.__id = student_id
+        self.__enrollments = []
 
     def get_id(self):
         return self.__id
@@ -22,13 +16,12 @@ class Student:
             raise ValueError("Invalid name")
         self.__name = new_name
 
-    def assign_grade(self, course_code, grade):
-        for course in self.__courses:
-            if course.get_code() == course_code:
-                course.set_grade(grade)
-                return
-        raise ValueError("Invalid course")
+    def add_enrollment(self, enrollment):
+        self.__enrollments.append(enrollment)
 
-    def __is_valid_input(self, name, id):
-        if not name or not id:
-            raise ValueError("Invalid input")
+    def get_enrollments(self):
+        return list(self.__enrollments)
+
+    def __is_valid_name(self, name):
+        if not name:
+            raise ValueError("Invalid name")
