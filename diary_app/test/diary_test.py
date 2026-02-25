@@ -91,7 +91,3 @@ class DiaryTest(unittest.TestCase):
         self.assertIsNotNone(entry.get_date_created())
         self.assertTrue(entry.get_date_created() >= before_creation)
         self.assertTrue(entry.get_date_created() <= after_creation)
-
-
-if __name__ == "__main__":
-    unittest.main()
