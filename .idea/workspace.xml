@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b88da9d-bb52-47fc-b892-b47eae74f8c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dunder_methods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,52 +43,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for function_snacks_test.TestFunctionSnacks.executor": "Run",
-    "Python tests.Python tests for function_task_tets.TestConvertMinutesFunction.executor": "Run",
-    "Python tests.Python tests for function_test.TestFunction.executor": "Run",
-    "Python tests.Python tests for multi_fuel_dispenser_system_test.test_multi_fuel_dispenser_system.executor": "Run",
-    "Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.executor": "Run",
-    "Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_are_empty.executor": "Run",
-    "Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_are_not_perfect_for_2D.executor": "Run",
-    "Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_are_not_perfect_squares.executor": "Run",
-    "Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_are_perfect_for_2.executor": "Run",
-    "Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_are_perfect_squares.executor": "Run",
-    "Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_have_one_digit.executor": "Run",
-    "Python tests.Python tests for redigested_check_test.TestFunction.executor": "Run",
-    "Python tests.Python tests for television_system_test.TestTelevisionSystem.executor": "Run",
-    "Python tests.Python tests for television_system_test.television_system_test.TestTelevisionSystem.executor": "Run",
-    "Python tests.Python tests for television_system_test.television_system_test.TestTelevisionSystem.test_that_television_can_power_on.executor": "Run",
-    "Python tests.Python tests for television_system_test.television_system_test.TestTelevisionSystem.test_that_television_is_off_at_initial.executor": "Run",
-    "Python tests.Python tests for test.multi_fuel_dispenser_system_test.test_multi_fuel_dispenser_system.executor": "Run",
-    "Python.7%_investment.executor": "Run",
-    "Python.account.executor": "Run",
-    "Python.dunder_methods.executor": "Run",
-    "Python.exercise.executor": "Run",
-    "Python.finger_warm_up.executor": "Run",
-    "Python.function_list.executor": "Run",
-    "Python.nokia.executor": "Run",
-    "Python.perfect_square_array.executor": "Run",
-    "Python.pratical.executor": "Run",
-    "Python.regex.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "ai.playground.ignore.import.keys.banner.in.settings": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/semi/Documents/student_management_system",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for bank_app.test.account_test.AccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for function_snacks_test.TestFunctionSnacks.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for function_task_tets.TestConvertMinutesFunction.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for function_test.TestFunction.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for multi_fuel_dispenser_system_test.test_multi_fuel_dispenser_system.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_are_empty.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_are_not_perfect_for_2D.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_are_not_perfect_squares.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_are_perfect_for_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_are_perfect_squares.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for perfect_square_array_test.TestPerfectSquareArray.test_that_rows_and_columns_have_one_digit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for redigested_check_test.TestFunction.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for television_system_test.TestTelevisionSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for television_system_test.television_system_test.TestTelevisionSystem.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for television_system_test.television_system_test.TestTelevisionSystem.test_that_television_can_power_on.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for television_system_test.television_system_test.TestTelevisionSystem.test_that_television_is_off_at_initial.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test.multi_fuel_dispenser_system_test.test_multi_fuel_dispenser_system.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7%_investment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.account.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dunder_methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.finger_warm_up.executor&quot;: &quot;Run&quot;,
+    &quot;Python.function_list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nokia.executor&quot;: &quot;Run&quot;,
+    &quot;Python.perfect_square_array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pratical.executor&quot;: &quot;Run&quot;,
+    &quot;Python.regex.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;ai.playground.ignore.import.keys.banner.in.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/semi/Documents/student_management_system&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -101,7 +101,24 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for bank_app.test.account_test.AccountTest">
+    <configuration name="Python tests for bank_app.test.account_test.AccountTest" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="semicolon_projects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;bank_app.test.account_test.AccountTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for function_snacks_test.TestFunctionSnacks" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="semicolon_projects" />
       <option name="ENV_FILES" value="" />
@@ -116,23 +133,6 @@
       <option name="RUN_TOOL" value="" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;function_snacks_test.TestFunctionSnacks&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for perfect_square_list_test.TestPerfectSquareArray" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="semicolon_projects" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;perfect_square_list_test.TestPerfectSquareArray&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -223,18 +223,17 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for bank_app.test.account_test.AccountTest" />
         <item itemvalue="Python tests.Python tests for television_system_test.TestTelevisionSystem" />
         <item itemvalue="Python tests.Python tests for function_snacks_test.TestFunctionSnacks" />
         <item itemvalue="Python tests.Python tests for television_system_test.TestTelevisionSystem.test_that_television_can_power_on" />
         <item itemvalue="Python tests.Python tests for television_system_test.TestTelevisionSystem.test_that_television_is_off_at_initial" />
-        <item itemvalue="Python tests.Python tests for perfect_square_list_test.TestPerfectSquareArray" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.308" />
         <option value="bundled-python-sdk-ca5e2b39c7df-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.308" />
       </set>
     </attachedChunks>
@@ -274,6 +273,7 @@
       <workItem from="1771710796779" duration="671000" />
       <workItem from="1772009525567" duration="10000" />
       <workItem from="1772009664921" duration="9446000" />
+      <workItem from="1772089445833" duration="6044000" />
     </task>
     <servers />
   </component>
@@ -301,7 +301,7 @@
     <SUITE FILE_PATH="coverage/semicolon_projects$perfect_square_array.coverage" NAME="perfect_square_array Coverage Results" MODIFIED="1770898247906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/semicolon_projects$7__investment.coverage" NAME="7%_investment Coverage Results" MODIFIED="1769934429183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/semicolon_projects$pratical.coverage" NAME="pratical Coverage Results" MODIFIED="1772011786398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/semicolon_projects$.coverage" NAME=" Coverage Results" MODIFIED="1771101635749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/semicolon_projects$.coverage" NAME=" Coverage Results" MODIFIED="1772091402486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/semicolon_projects$finger_warm_up.coverage" NAME="finger_warm_up Coverage Results" MODIFIED="1770630582706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
